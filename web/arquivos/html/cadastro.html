@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Meu site</title>
+		<meta charset="utf-8">
+		<link rel="icon" href="../../imagens/img/favicon.png">
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/site.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+	</head>
+	<body>
+		<main>
+
+			<header>  <img src="../../imagens/ferias/2018/logo.jpg"  alt="logo site" class="logo"></header>
+
+			<h1 class="titulo-principal">Nome do meu site</h1>
+			<section class="container">
+
+
+				<form method="post" >
+					<div class="reg">
+	        	<fieldset class= "fieldSet">
+	        		<legend class="legend">Informações pessoais</legend>
+	          	<label>Nome completo: </label>
+	          	<input type="text" name="nome" required>
+							</br>
+							<label>E-mail: </label>
+	          	<input type="email" name="email" required>
+	          	</br>
+							<label for="diaa">DATA NASCIMENTO:</label>
+	    				<input type="date" id="diaa" name="diaa">
+							</br>
+							<label>Login: </label>
+	          	<input type="text" name="login" required>
+							</br>
+	          	<label>Senha: </label>
+	          	<input type="password" name="senha" required>
+							</br>
+	          	<label> Estado</label>
+	          	<select name="estadoCivil" required>
+								<option value ="default" selected="selected"> </option>
+								<option value="ac">Acre</option>
+								<option value="al">Alagoas</option>
+								<option value="am">Amazonas</option>
+								<option value="ap">Amapá</option>
+								<option value="ba">Bahia</option>
+								<option value="ce">Ceará</option>
+								<option value="df">Distrito Federal</option>
+								<option value="es">Espírito Santo</option>
+								<option value="go">Goiás</option>
+								<option value="ma">Maranhão</option>
+								<option value="mt">Mato Grosso</option>
+								<option value="ms">Mato Grosso do Sul</option>
+								<option value="mg">Minas Gerais</option>
+								<option value="pa">Pará</option>
+								<option value="pb">Paraíba</option>
+								<option value="pr">Paraná</option>
+								<option value="pe">Pernambuco</option>
+								<option value="pi">Piauí</option>
+								<option value="rj">Rio de Janeiro</option>
+								<option value="rn">Rio Grande do Norte</option>
+								<option value="ro">Rondônia</option>
+								<option value="rs">Rio Grande do Sul</option>
+								<option value="rr">Roraima</option>
+								<option value="sc">Santa Catarina</option>
+								<option value="se">Sergipe</option>
+								<option value="sp">São Paulo</option>
+								<option value="to">Tocantins</option>
+	          	</select>
+
+	        		</br>
+	          	<label>Faixa etária:</label>
+							</br>
+	          	<input type="radio" name="gender" value="menor" checked > Menor ou igual a 18 anos
+							</br>
+	          	<input type="radio" name="gender" value="maior"> Maior de 18 anos
+
+	      		</fieldset>
+					</div>
+
+      	</form>
+      	</br>
+      	<input type="reset" value="Limpar formulário" class="buttom">
+      	<input type="submit" value="Efetuar cadastro" class="buttom">
+
+
+			</section>
+		</main>
+
+		<aside class="navegacao-site">
+			<h1>Menu Principal</h1>
+			<nav>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="cadastro.html">Cadastro</a></li>
+					<li><a href="bio.html">Sobre mim</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+			<ul class="icones-redes-sociais">
+				<li>
+					<a class="github" href="https://github.com">
+						Github
+					</a>
+				</li>
+				<li>
+					<a class="ufla" href="https://ufla.br">
+						Ufla
+					</a>
+				</li>
+				<li>
+					<a class="fagammon" href="https://www.fagammon.edu.br">
+						Fagammon
+					</a>
+				</li>
+			</ul>
+		</aside>
+		<footer class="rodape-pagina">
+			&copy; Sistema © CopyRight 2018 by www.meusite.com - Todos os direitos reservados.
+		</footer>
+	</body>
+</html>
